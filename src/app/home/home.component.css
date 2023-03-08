@@ -1,0 +1,79 @@
+.fi-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0.75rem 4rem;
+}
+
+.fi-link {
+  height: 22rem;
+  width: 20rem;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: var(--red);
+}
+
+.fi-link:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.content {
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.favorite {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  font-size: 1.2rem;
+}
+
+.favorite.not {
+  color: var(--gray);
+}
+
+.stars-container {
+  margin: 0.25rem 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.product-item-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.origins {
+  flex: 9;
+}
+
+.origins span {
+  border-radius: 2rem;
+  background-color: whitesmoke;
+  color: gray;
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+}
+
+.cook-time {
+  flex: 3;
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+.price {
+  color: var(--gray);
+  margin-top: 0.25rem;
+  font-weight: bold;
+}
